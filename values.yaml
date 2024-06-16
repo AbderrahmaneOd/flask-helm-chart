@@ -1,8 +1,8 @@
 deployment:
   replicas: 2
   image:
-    owner: <dockerhub-username>
-    repository: <image-name>
+    owner: abdeod
+    repository: todo-list-flask-app
     tag: 52506c97045fdb7de9debdc5f7e0e7d9a1d6e5fc
   container:
     name: todolist-app
